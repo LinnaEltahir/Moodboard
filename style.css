@@ -1,56 +1,57 @@
-body{
-  background-color: #CCD589;
+body {
+    background: linear-gradient(rgb(204, 213, 137), rgba(207, 200, 192, 0)); 
+    font-family: 'Staatliches', sans-serif;
+    margin: 0; /* Remove default margin to ensure the gradient covers the entire page */
+    min-height: 100vh; /* Ensure the gradient covers the full height of the viewport */
+}
+  h1{
+  text-align: center;
+  padding: 1%;
+  font-size: 500%;
+  }
+  .today{
+  background-color: rgb(255, 255, 255);
   font-family: 'Staatliches', sans-serif;
-}
-h1{
-text-align: center;
-padding: 1%;
-font-size: 500%;
-}
-.today{
-background-color: bisque;
-font-family: 'Crafty Girls', cursive;
-font-family: 'Noto Sans KR', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Paytone One', sans-serif;
-font-family: 'The Girl Next Door', cursive;
-}
-.learning{
-background-color: antiquewhite;
-padding: 2px;
-margin: 80px;
-text-align: center;
-font-size: 40px;
-justify-content: center;
-width: 250px;
-    height: 300px;
-    border: 1px solid orange;
-    display: inline-block;
-}
-.Logo{
-margin-left: 5px;
-margin-top: 5px;
-height: 100px;
-}
-.container-fluid{
-background-color: antiquewhite;
-}
-.footer-images {
-display: flex;
-justify-content: flex-end; /* Align images to the right */
-}
-.footer-images img {
-max-width: 30px; /* Set the maximum width of the images */
-height: auto; /* Maintain aspect ratio */
-margin-left: 10px; /* Add some space between the images (adjust as needed) */
-}
-#button {
-width: auto;
-display: inline-block;
-font-size: 16px;
-text-transform: uppercase;
-color: green;
-width: 316px;
-height: 60px;
-line-height: 57px;
+  }
+  .learning{
+  padding: 2px;
+  margin: 80px;
+  text-align: center;
+  font-size: 40px;
+  justify-content: center;
+  width: 250px;
+      height: 300px;
+      display: inline-block;
+  }
+  .Logo{
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 100px;
+  }
+  .container-fluid{
+  background-color: rgb(252, 252, 252);
+  }
+  .footer-images {
+  display: flex;
+  justify-content: flex-end; /* Align images to the right */
+  }
+  .footer-images img {
+  max-width: 30px; /* Set the maximum width of the images */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 10px; /* Add some space between the images (adjust as needed) */
+  }
+  #button {
+  width: auto;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #404040;
+  width: 316px;
+  height: 60px;
+  line-height: 57px;
+  }
+ 
+
+  .file-input {
+    color: transparent;
 }
