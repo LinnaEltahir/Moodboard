@@ -1,124 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CFG Project Team 4</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFG Project Team 4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img class="Logo"  src="Red and Beige Bold Typography Cosmetic Brand Logo (2).png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Inspiration</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Exploration</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+ 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="Logo"  src="malllogo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inspiration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Exploration</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   
   <div class="Tagline">
     <h1> SEE YOUR FUTURE
       <span class="today">
         TODAY
       </span>
     </h1>
-    <div class="learning">
-      Upload Photos Here
-     </div>
-     <div class="learning">
-      Upload Photos Here
-     </div>
-     <div class="learning">
-      Upload Photos Here
-     </div>
-  </div>
-  <div class="learning">
-    Upload Photos Here
-  </div>
-  <div class="learning">
-    Upload Photos Here
-  </div>
-  <div class="learning">
-    Upload Photos Here
-  </div>
+    
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="learning">
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" class="file-input" onchange="displayImages(this, 1)" />
+                    <output id="output1"></output>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="learning">
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" class="file-input" onchange="displayImages(this, 2)" />
+                    <output id="output2"></output>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="learning">
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" class="file-input" onchange="displayImages(this, 3)" />
+                    <output id="output3"></output>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-4">
+                <div class="learning">
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" class="file-input" onchange="displayImages(this, 4)" />
+                    <output id="output4"></output>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="learning">
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" class="file-input" onchange="displayImages(this, 5)" />
+                    <output id="output5"></output>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="learning">
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" class="file-input" onchange="displayImages(this, 6)" />
+                    <output id="output6"></output>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+   
+    
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
   crossorigin="anonymous"></script>
+
+  <script>
+    function displayImages(input, index) {
+      const file = input.files[0];
+      const output = document.getElementById(`output${index}`);
+      if (file) {
+        output.innerHTML = `<img src="${URL.createObjectURL(file)}" alt="image" width="200"/>`;
+      } else {
+        output.style.display = 'none';
+      }
+    }
+  </script>
+  
 </body>
 <footer class="text-center bg-body-tertiary">
-  <!-- Grid container -->
-  <div class="container pt-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <div class="footer-images">
-        <img src="facebook.png" alt="">
-        <img src="instragram.png" alt="">
-        <img src="pinterest.png" alt="">
-        <img src="twitter.png" alt="">
-      </div>
-      <!-- Twitter -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-twitter"></i
-      ></a>
-      <!-- Instagram -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-instagram"></i
-      ></a>
-      <!-- Linkedin -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <!-- Github -->
-      <a
-        data-mdb-ripple-init
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-    <a class="text-body" href="https://mdbootstrap.com/"></a>
-  </div>
-  <!-- Copyright -->
-</footer>
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <div class="footer-images">
+          <img src="facebook (1).png" alt="">
+          <img src="instragram (1).png" alt="">
+          <img src="pinterest (1).png" alt="">
+          <img src="twitter (1).png" alt="">
+        </div>
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      <a class="text-body" href="https://mdbootstrap.com/"></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 </html>
