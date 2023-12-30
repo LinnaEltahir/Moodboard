@@ -9,10 +9,12 @@ body {
   padding: 1%;
   font-size: 500%;
   }
-  .today{
-  background-color: rgb(255, 255, 255);
-  font-family: 'Staatliches', sans-serif;
-  }
+  .today {
+    font-family: 'Staatliches', sans-serif;
+    color: #ffffff; 
+    font-weight: bold; 
+}
+
   .learning{
   padding: 2px;
   margin: 80px;
@@ -30,6 +32,7 @@ body {
   }
   .container-fluid{
   background-color: rgb(252, 252, 252);
+  
   }
   .footer-images {
   display: flex;
@@ -41,17 +44,28 @@ body {
   margin-left: 10px; /* Add some space between the images (adjust as needed) */
   }
   #button {
-  width: auto;
-  display: inline-block;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #404040;
-  width: 316px;
-  height: 60px;
-  line-height: 57px;
-  }
- 
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #404040;
+    padding: 10px; /* Adjust padding as needed */
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+  #button:hover {
+    background-color:rgb(228, 238, 157);
+    padding: 10px; /* Match the padding during hover to ensure consistent size */
+    width: 300px;
+    height: 50px;
+}
 
   .file-input {
     color: transparent;
+}
+.img-fluid{
+    width: 500px;
+    height: 400px;
 }
