@@ -1,71 +1,72 @@
 body {
-    background: linear-gradient(rgb(204, 213, 137), rgba(207, 200, 192, 0)); 
-    font-family: 'Staatliches', sans-serif;
-    margin: 0; /* Remove default margin to ensure the gradient covers the entire page */
-    min-height: 100vh; /* Ensure the gradient covers the full height of the viewport */
+  background: linear-gradient(rgb(204, 213, 137), rgba(207, 200, 192, 0)); 
+  font-family: 'Staatliches', sans-serif;
+  margin: 0; /* Remove default margin to ensure the gradient covers the entire page */
+  min-height: 100vh; /* Ensure the gradient covers the full height of the viewport */
 }
-  h1{
-  text-align: center;
-  padding: 1%;
-  font-size: 500%;
-  }
-  .today {
-    font-family: 'Staatliches', sans-serif;
-    color: #ffffff; 
-    font-weight: bold; 
+h1{
+text-align: center;
+padding: 1%;
+font-size: 500%;
+}
+.today {
+  font-family: 'Staatliches', sans-serif;
+  color: #ffffff; 
+  font-weight: bold; 
 }
 
-  .learning{
-  padding: 2px;
-  margin: 80px;
-  text-align: center;
-  font-size: 40px;
-  justify-content: center;
-  width: 250px;
-      height: 300px;
-      display: inline-block;
-  }
-  .Logo{
-  margin-left: 5px;
-  margin-top: 5px;
-  height: 100px;
-  }
-  .container-fluid{
-  background-color: rgb(252, 252, 252);
-  
-  }
-  .footer-images {
-  display: flex;
-  justify-content: flex-end; /* Align images to the right */
-  }
-  .footer-images img {
-  max-width: 30px; /* Set the maximum width of the images */
-  height: auto; /* Maintain aspect ratio */
-  margin-left: 10px; /* Add some space between the images (adjust as needed) */
-  }
-  #button {
+.learning{
+padding: 2px;
+margin: 80px;
+text-align: center;
+font-size: 40px;
+justify-content: center;
+width: 250px;
+    height: 300px;
     display: inline-block;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #404040;
-    padding: 10px; /* Adjust padding as needed */
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
 }
-  #button:hover {
-    background-color:rgb(228, 238, 157);
-    padding: 10px; /* Match the padding during hover to ensure consistent size */
-    width: 300px;
-    height: 50px;
+.Logo{
+margin-left: 5px;
+margin-top: 5px;
+height: 100px;
+}
+.container-fluid{
+background-color: rgb(252, 252, 252);
+
+}
+.footer-images {
+display: flex;
+justify-content: flex-end; /* Align images to the right */
+}
+.footer-images img {
+max-width: 30px; /* Set the maximum width of the images */
+height: auto; /* Maintain aspect ratio */
+margin-left: 10px; /* Add some space between the images (adjust as needed) */
+}
+#button {
+  display: inline-block;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #404040;
+  padding: 10px; /* Adjust padding as needed */
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+#button:hover {
+  background-color:rgb(228, 238, 157);
+  padding: 10px; /* Match the padding during hover to ensure consistent size */
+  width: 400px;
+  height: 60px;
 }
 
-  .file-input {
-    color: transparent;
+.file-input {
+  color: transparent;
 }
 .img-fluid{
-    width: 500px;
-    height: 400px;
+  width: 500px;
+  height: 400px;
 }
+  
